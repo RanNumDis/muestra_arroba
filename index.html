@@ -3,123 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
-
-    <!-- SEO Meta Tags -->
+    <!-- SEO -->
     <title>Arroba Eventos - Salón de Fiestas en Rosario</title>
     <meta name="description" content="Arroba Eventos: salón de fiestas en Rosario para celebraciones infantiles. Opciones Clásica, All Inclusive, Aquacumple, Cumple Teens y Arroba Lúdico. Amplias instalaciones y servicio personalizado. ¡Reservá por WhatsApp!">
     <meta name="keywords" content="salón de fiestas, eventos infantiles, cumpleaños, alquiler de salón, Arroba Eventos, Rosario, Aquacumple, fiestas infantiles, testimonios, talleres lúdicos">
     <meta name="author" content="Arroba Eventos">
     <meta name="robots" content="index, follow">
-
-    <!-- Open Graph / Redes Sociales -->
+    <!-- Open Graph -->
     <meta property="og:title" content="Arroba Eventos - Salón de Fiestas">
     <meta property="og:description" content="Organizá tu evento en Arroba Eventos. Opciones Clásica, All Inclusive, Aquacumple, Teens o talleres Arroba Lúdico. ¡Reservá por WhatsApp!">
-    <meta property="og:image" content="instalacion1.webp">
-    <meta property="og:url" content="https://www.arroba-eventos.com">
+    <meta property="og:image" content="instalacion1.jpg">
+    <meta property="og:url" content="https://www.arrobaeventos.com.ar">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="es_ES">
-
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="logo.png">
     <link rel="apple-touch-icon" sizes="180x180" href="logo.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="logo.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="logo.png">
-    
-    <!-- Font Awesome -->
+    <!-- Recursos externos -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-    <!-- Google Fonts: Open Sans -->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-
     <style>
-        /* ===== COLOR PALETTE ===== */
+        /* ----- VARIABLES ----- */
         :root {
-            --primary-color: #CE9220;      /* Dorado */
-            --secondary-color: #49508D;     /* Azul oscuro */
-            --accent-color: #A92F26;        /* Rojo */
+            --primary-color: #CE9220;
+            --secondary-color: #49508D;
+            --accent-color: #A92F26;
             --whatsapp-color: #25D366;
             --whatsapp-hover: #128C7E;
-            --light-color: #FDF8ED;         /* Manteca */
+            --light-color: #FDF8ED;
             --text-color: #333;
             --text-light: #555;
             --shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
             --transition: all 0.3s ease;
-            --header-bg: #CE9220;           /* Header dorado */
-            --footer-bg: #49508D;           /* Footer azul oscuro */
+            --header-bg: #CE9220;
+            --footer-bg: #49508D;
             --card-bg: #FFFFFF;
             --border-radius-card: 20px;
         }
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
+        * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
             font-family: 'Open Sans', sans-serif;
             line-height: 1.6;
             color: var(--text-color);
             background-color: var(--light-color);
         }
-
-        h1, h2, h3, h4, p, li, a, .btn, .nav-links a, .contact-item p, .footer-column p, .copyright, .schedule-list, .feature-short-list {
-            font-family: 'Open Sans', sans-serif;
-        }
-
-        h1 {
-            font-size: 3.2rem;
-            margin-bottom: 1rem;
-            font-weight: 800;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-        }
-
-        h2 {
-            font-size: 2.8rem;
-            margin-bottom: 1.8rem;
-            text-align: center;
-            position: relative;
-            color: var(--secondary-color);
-            font-weight: 700;
-        }
-
-        h2:after {
-            display: none;
-        }
-
-        h3 {
-            font-size: 2rem;
-            margin-bottom: 1rem;
-            color: var(--accent-color);
-            font-weight: 700;
-        }
-
-        h4 {
-            font-weight: 600;
-        }
-
-        p {
-            margin-bottom: 1.2rem;
-            font-size: 1.1rem;
-            color: var(--text-light);
-            font-weight: 400;
-        }
-
-        section {
-            padding: 5rem 1.5rem;
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 1.5rem;
-        }
-
-        .text-center {
-            text-align: center;
-        }
-
-        /* Header dorado */
+        h1, h2, h3, h4, p, li, a, .btn, .nav-links a, .contact-item p, .footer-column p { font-family: 'Open Sans', sans-serif; }
+        h1 { font-size: 3.2rem; margin-bottom: 1rem; font-weight: 800; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); }
+        h2 { font-size: 2.8rem; margin-bottom: 1.8rem; text-align: center; color: var(--secondary-color); font-weight: 700; }
+        h3 { font-size: 2rem; margin-bottom: 1rem; color: var(--accent-color); font-weight: 700; }
+        p { margin-bottom: 1.2rem; font-size: 1.1rem; color: var(--text-light); }
+        section { padding: 5rem 1.5rem; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 1.5rem; }
+        .text-center { text-align: center; }
+        /* Header */
         header {
             background-color: var(--header-bg);
             color: white;
@@ -129,13 +65,11 @@
             z-index: 100;
             box-shadow: var(--shadow);
         }
-
         .nav-container {
             display: flex;
             justify-content: space-between;
             align-items: center;
         }
-
         .logo {
             display: flex;
             align-items: center;
@@ -144,36 +78,21 @@
             font-weight: bold;
             color: white;
         }
-
-        .logo img {
-            height: 50px;
-            width: auto;
-        }
-
-        .logo span {
-            color: white;
-            font-weight: 700;
-        }
-
+        .logo img { height: 50px; width: auto; }
+        .logo span { color: white; font-weight: 700; }
         .nav-links {
             display: flex;
             list-style: none;
             gap: 2rem;
             align-items: center;
         }
-
         .nav-links a {
             color: white;
             text-decoration: none;
             font-weight: 600;
             transition: var(--transition);
         }
-
-        .nav-links a:hover:not(.btn-reservar-nav) {
-            color: var(--secondary-color);
-        }
-
-        /* Botón reservar en header: ROJO */
+        .nav-links a:hover:not(.btn-reservar-nav) { color: var(--secondary-color); }
         .btn-reservar-nav {
             background-color: var(--accent-color);
             color: white !important;
@@ -183,13 +102,10 @@
             transition: var(--transition);
             display: inline-block;
         }
-
         .btn-reservar-nav:hover {
             background-color: #8a241c;
             transform: translateY(-2px);
-            color: white !important;
         }
-
         .mobile-menu-btn {
             display: none;
             background: none;
@@ -198,22 +114,17 @@
             font-size: 1.5rem;
             cursor: pointer;
         }
-
-        /* Hero con degradado crema a rojizo */
+        /* Hero */
         .hero {
             position: relative;
-            background-image: linear-gradient(to bottom, rgba(253, 248, 237, 0.4), rgba(73, 80, 141, 0.6)), url('hero.png');
+            background-image: linear-gradient(to bottom, rgba(253, 248, 237, 0.4), rgba(73, 80, 141, 0.6)), url('hero.webp');
             background-position: center;
             background-size: cover;
             color: white;
             text-align: left;
             padding: 6rem 1.5rem;
         }
-
-        .hero .container {
-            text-align: left;
-        }
-
+        .hero .container { text-align: left; }
         .hero-logo-title {
             display: flex;
             align-items: center;
@@ -221,17 +132,12 @@
             flex-wrap: nowrap;
             margin-bottom: 1.5rem;
         }
-
-        .hero-logo {
-            flex-shrink: 0;
-        }
-
+        .hero-logo { flex-shrink: 0; }
         .hero-logo img {
             height: 180px;
             width: auto;
             filter: drop-shadow(0 4px 8px rgba(0,0,0,0.2));
         }
-
         .hero h1 {
             margin-bottom: 0;
             flex: 1;
@@ -239,17 +145,13 @@
             color: white;
             text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
         }
-
         .hero p {
             font-size: 1.3rem;
             max-width: 700px;
             margin: 0 0 2rem 0;
             color: white;
-            text-align: left;
             text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
         }
-
-        /* NUEVO WRAPPER para botón e íconos sociales (juntos en desktop) */
         .hero-buttons-wrapper {
             display: flex;
             flex-direction: row;
@@ -258,27 +160,23 @@
             gap: 1.5rem;
             margin-bottom: 2rem;
         }
-
         .hero-social {
             display: flex;
             gap: 1.5rem;
             align-items: center;
         }
-
         .hero-social a {
             color: white;
             font-size: 1.8rem;
             transition: var(--transition);
             opacity: 0.9;
         }
-
         .hero-social a:hover {
             transform: translateY(-5px);
             opacity: 1;
             color: var(--primary-color);
         }
-
-        /* Botones base */
+        /* Botones */
         .btn {
             display: inline-block;
             padding: 1rem 2rem;
@@ -293,32 +191,23 @@
             margin: 0.5rem 0.5rem 0.5rem 0;
             white-space: nowrap;
         }
-
         .btn-whatsapp {
             background-color: var(--whatsapp-color);
             color: white;
         }
-
         .btn-whatsapp:hover {
             background-color: var(--whatsapp-hover);
             transform: translateY(-3px);
         }
-
         .btn-maps {
             background-color: var(--accent-color);
             color: white;
         }
-
         .btn-maps:hover {
             background-color: #8a241c;
             transform: translateY(-3px);
         }
-
-        .btn i {
-            margin-right: 10px;
-        }
-
-        /* Botones de servicios: azules */
+        .btn i { margin-right: 10px; }
         .service-panel .btn-whatsapp {
             background-color: var(--secondary-color);
             color: white;
@@ -327,15 +216,13 @@
             background-color: #3a4270;
             transform: translateY(-3px);
         }
-
-        /* Sección de servicios */
+        /* Servicios (grid) */
         .services-three-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
             gap: 2rem;
             margin-top: 2rem;
         }
-
         .service-panel {
             background: var(--card-bg);
             border-radius: var(--border-radius-card);
@@ -345,24 +232,11 @@
             text-align: center;
             border-bottom: 5px solid var(--primary-color);
         }
-
-        .service-panel h3 {
-            margin-top: 0;
-            margin-bottom: 1.2rem;
-            font-size: 2rem;
-        }
-
-        .service-panel p {
-            font-size: 1rem;
-            margin-bottom: 1.5rem;
-        }
-
         .feature-short-list {
             list-style: none;
             text-align: left;
             margin: 1.5rem 0;
         }
-
         .feature-short-list li {
             display: flex;
             align-items: center;
@@ -370,45 +244,18 @@
             margin-bottom: 0.7rem;
             font-size: 0.95rem;
         }
-
         .feature-short-list i {
             color: var(--primary-color);
             font-size: 1.1rem;
             width: 1.5rem;
         }
-
-        /* ========== TESTIMONIOS / RESEÑAS (NUEVO) ========== */
-        .testimonials {
-            background-color: var(--light-color);
-        }
-        .overall-rating {
-            text-align: center;
-            margin-bottom: 2.5rem;
-        }
-        .rating-score {
-            font-size: 3rem;
-            font-weight: 800;
-            color: var(--secondary-color);
-            line-height: 1;
-        }
-        .rating-stars {
-            color: #FFD700;
-            font-size: 1.8rem;
-            margin: 0.5rem 0;
-        }
-        .rating-stars i {
-            margin: 0 2px;
-        }
-        .rating-text {
-            font-size: 1rem;
-            color: var(--text-light);
-        }
-        .rating-text a {
-            color: var(--accent-color);
-            text-decoration: underline;
-        }
+        /* Testimonios y carrusel */
+        .overall-rating { text-align: center; margin-bottom: 2.5rem; }
+        .rating-score { font-size: 3rem; font-weight: 800; color: var(--secondary-color); line-height: 1; }
+        .rating-stars { color: #FFD700; font-size: 1.8rem; margin: 0.5rem 0; }
+        .rating-stars i { margin: 0 2px; }
+        .rating-text a { color: var(--accent-color); text-decoration: underline; }
         
-        /* Carrusel de testimonios */
         .testimonials-carousel-container {
             position: relative;
             max-width: 1100px;
@@ -434,7 +281,6 @@
             flex-direction: column;
             transition: all 0.3s ease;
             border: 1px solid rgba(206, 146, 32, 0.2);
-            height: auto;
             min-height: 280px;
         }
         .testimonial-card.active {
@@ -459,34 +305,11 @@
             font-size: 1.5rem;
             color: var(--primary-color);
         }
-        .testimonial-info h4 {
-            margin-bottom: 0.2rem;
-            color: var(--secondary-color);
-        }
-        .testimonial-info p {
-            font-size: 0.8rem;
-            margin-bottom: 0;
-            color: #777;
-        }
-        .testimonial-stars {
-            color: #FFD700;
-            margin-bottom: 1rem;
-            font-size: 0.9rem;
-        }
-        .testimonial-text {
-            font-style: italic;
-            line-height: 1.5;
-            color: var(--text-color);
-            font-size: 0.95rem;
-            flex: 1;
-        }
-        .testimonial-date {
-            font-size: 0.7rem;
-            color: #aaa;
-            text-align: right;
-            margin-top: 1rem;
-        }
-        /* Botones del carrusel */
+        .testimonial-info h4 { margin-bottom: 0.2rem; color: var(--secondary-color); }
+        .testimonial-info p { font-size: 0.8rem; margin-bottom: 0; color: #777; }
+        .testimonial-stars { color: #FFD700; margin-bottom: 1rem; font-size: 0.9rem; }
+        .testimonial-text { font-style: italic; line-height: 1.5; color: var(--text-color); font-size: 0.95rem; flex: 1; }
+        .testimonial-date { font-size: 0.7rem; color: #aaa; text-align: right; margin-top: 1rem; }
         .carousel-btn {
             position: absolute;
             top: 50%;
@@ -511,12 +334,8 @@
             color: white;
             transform: translateY(-50%) scale(1.05);
         }
-        .carousel-btn.prev {
-            left: 10px;
-        }
-        .carousel-btn.next {
-            right: 10px;
-        }
+        .carousel-btn.prev { left: 10px; }
+        .carousel-btn.next { right: 10px; }
         .carousel-indicators {
             display: flex;
             justify-content: center;
@@ -535,43 +354,7 @@
             background-color: var(--primary-color);
             transform: scale(1.3);
         }
-        
-        @media (max-width: 768px) {
-            .testimonials-carousel-container {
-                padding: 0 50px;
-            }
-            .testimonial-card {
-                min-width: 280px;
-                flex: 0 0 280px;
-                padding: 1.2rem;
-            }
-            .carousel-btn {
-                width: 40px;
-                height: 40px;
-                font-size: 1rem;
-            }
-        }
-        @media (max-width: 480px) {
-            .testimonials-carousel-container {
-                padding: 0 30px;
-            }
-            .testimonial-card {
-                min-width: 260px;
-                flex: 0 0 260px;
-            }
-            .rating-score {
-                font-size: 2.5rem;
-            }
-            .rating-stars {
-                font-size: 1.5rem;
-            }
-        }
-        /* Fin testimonios */
-
-        /* Quiénes Somos */
-        .about-us {
-            background-color: var(--light-color);
-        }
+        /* Quiénes somos */
         .about-content {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -579,28 +362,14 @@
             align-items: center;
             margin-top: 2rem;
         }
-        .about-text p {
-            margin-bottom: 1.2rem;
-        }
         .about-image {
             border-radius: 24px;
             overflow: hidden;
             box-shadow: var(--shadow);
         }
-        .about-image img {
-            width: 100%;
-            height: auto;
-            display: block;
-            transition: transform 0.4s ease;
-        }
-        .about-image:hover img {
-            transform: scale(1.02);
-        }
-
+        .about-image img { width: 100%; height: auto; display: block; transition: transform 0.4s ease; }
+        .about-image:hover img { transform: scale(1.02); }
         /* Galería */
-        .gallery {
-            background-color: var(--light-color);
-        }
         .gallery-container {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -612,22 +381,10 @@
             overflow: hidden;
             box-shadow: var(--shadow);
             height: 220px;
-            position: relative;
         }
-        .gallery-item img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            transition: var(--transition);
-        }
-        .gallery-item:hover img {
-            transform: scale(1.1);
-        }
-
+        .gallery-item img { width: 100%; height: 100%; object-fit: cover; transition: var(--transition); }
+        .gallery-item:hover img { transform: scale(1.1); }
         /* Ubicación y contacto */
-        .location-contact {
-            background-color: var(--card-bg);
-        }
         .contact-grid {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -641,17 +398,8 @@
             height: 100%;
             min-height: 350px;
         }
-        .map-container iframe {
-            width: 100%;
-            height: 100%;
-            border: 0;
-        }
-        .contact-details {
-            display: flex;
-            flex-direction: column;
-            gap: 1.5rem;
-            align-items: flex-start;
-        }
+        .map-container iframe { width: 100%; height: 100%; border: 0; }
+        .contact-details { display: flex; flex-direction: column; gap: 1.5rem; align-items: flex-start; }
         .contact-item {
             display: flex;
             align-items: center;
@@ -668,59 +416,110 @@
             justify-content: center;
             border-radius: 50%;
         }
-        .contact-item div {
-            flex: 1;
-        }
-        .contact-item h4 {
-            font-size: 1.2rem;
-            margin-bottom: 0.3rem;
-            color: var(--secondary-color);
-            font-weight: 600;
-        }
-        .contact-item p {
-            margin-bottom: 0;
-        }
-        .schedule-list {
-            list-style: none;
-        }
-        .schedule-list li {
-            display: flex;
-            padding: 0.3rem 0;
-        }
-        .contact-link {
-            color: inherit;
-            text-decoration: none;
-            transition: var(--transition);
-            cursor: pointer;
-        }
-        .contact-link:hover {
-            color: var(--accent-color);
-        }
-
-        /* CTA final (reserva) - fondo dorado */
+        .contact-item h4 { font-size: 1.2rem; margin-bottom: 0.3rem; color: var(--secondary-color); font-weight: 600; }
+        .contact-item p { margin-bottom: 0; }
+        .schedule-list { list-style: none; }
+        .schedule-list li { display: flex; padding: 0.3rem 0; }
+        .contact-link { color: inherit; text-decoration: none; transition: var(--transition); cursor: pointer; }
+        .contact-link:hover { color: var(--accent-color); }
+        /* CTA final (reservas) - estilo adaptado para el sistema de turnos */
         .final-cta {
             text-align: center;
-            position: relative;
-            background-image: linear-gradient(to bottom, rgba(206,146,32,0.7), rgba(206,146,32,0.7)), url('reserva.png');
+            background-image: linear-gradient(to bottom, rgba(206,146,32,0.85), rgba(206,146,32,0.85)), url('reserva.webp');
             background-size: cover;
             color: white;
         }
-        .final-cta h2 {
-            color: white;
-            text-shadow: 1px 1px 0 rgba(0,0,0,0.2);
-        }
-        .final-cta p {
-            color: rgba(255,255,255,0.95);
-        }
-        .final-cta .btn-whatsapp {
-            background-color: var(--whatsapp-color);
-            color: white;
-        }
-        .final-cta .btn-whatsapp:hover {
-            background-color: var(--whatsapp-hover);
+        .final-cta h2 { color: white; text-shadow: 1px 1px 0 rgba(0,0,0,0.2); }
+        .final-cta p { color: rgba(255,255,255,0.95); }
+        
+        /* ------- Estilos para el sistema de reserva ------- */
+        .booking-container {
+            max-width: 550px;
+            margin: 0 auto;
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(4px);
+            border-radius: 48px;
+            padding: 2rem 2rem;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
         }
 
-        /* Footer azul oscuro */
+	.btn-reservar-book {
+	    background: var(--accent-color); /* rojizo (#A92F26) */
+	    color: white;
+	    border: none;
+	    padding: 14px 32px;
+	    font-size: 1.2rem;
+	    font-weight: bold;
+	    border-radius: 50px;
+	    cursor: pointer;
+	    transition: var(--transition);
+	    box-shadow: var(--shadow);
+	    margin: 0.5rem 0;
+	    display: inline-flex;
+	    align-items: center;
+	    gap: 12px;
+	}
+
+	.btn-reservar-book i {
+	    color: white;
+	}
+
+	.btn-reservar-book:hover {
+	    background-color: #8a241c; /* variante más oscura del acento */
+	    transform: translateY(-3px);
+	}
+
+	.btn-reservar-book:disabled {
+	    background: #b0bec5;
+	    cursor: not-allowed;
+	    transform: none;
+	    opacity: 0.7;
+	}
+        }
+        .btn-reservar-book:disabled i { color: #666; }
+
+	.mensaje-exito {
+	    display: none;
+	    margin-top: 25px;
+	    padding: 16px;
+	    background: #e6f4ea;      /* fondo verde muy claro */
+	    border-left: 5px solid #0d652d;  /* borde izquierdo verde oscuro */
+	    border-radius: 16px;
+	    color: #0d652d;           /* texto verde oscuro */
+	    font-weight: 500;
+	    text-align: center;
+	}
+        .link-reintentar {
+            display: none;
+            margin-top: 20px;
+            font-size: 0.9rem;
+        }
+        .link-reintentar a {
+            color: white;
+            text-decoration: underline;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .link-reintentar a:hover { color: #ffd966; }
+        .warning-popup {
+            background: rgba(0,0,0,0.7);
+            color: #ffcc00;
+            border-radius: 30px;
+            padding: 10px 15px;
+            font-size: 0.85rem;
+            margin-top: 20px;
+            display: none;
+        }
+        .footer-seguridad {
+            margin-top: 30px;
+            font-size: 0.8rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            color: rgba(255,255,255,0.9);
+        }
+        /* Footer general */
         footer {
             background-color: var(--footer-bg);
             color: #f0f0f0;
@@ -732,15 +531,8 @@
             justify-content: space-between;
             gap: 2rem;
         }
-        .footer-column h3 {
-            font-weight: 700;
-            color: white;
-            margin-bottom: 1.5rem;
-            font-size: 1.8rem;
-        }
-        .footer-column p, .footer-column span, .contact-info span {
-            color: #e0e0e0;
-        }
+        .footer-column h3 { font-weight: 700; color: white; margin-bottom: 1.5rem; font-size: 1.8rem; }
+        .footer-column p, .footer-column span, .contact-info span { color: #e0e0e0; }
         .contact-info {
             display: flex;
             align-items: center;
@@ -772,7 +564,6 @@
         }
         .social-icons a:hover {
             background-color: var(--primary-color);
-            color: white;
             transform: translateY(-5px);
         }
         .copyright {
@@ -781,10 +572,8 @@
             padding-top: 2rem;
             border-top: 1px solid rgba(255, 255, 255, 0.2);
             font-size: 0.9rem;
-            color: #e0e0e0;
         }
-
-        /* Botón flotante WhatsApp */
+        /* WhatsApp flotante */
         .whatsapp-float {
             position: fixed;
             bottom: 30px;
@@ -807,27 +596,16 @@
             background-color: var(--whatsapp-hover);
             transform: scale(1.1);
         }
-
-        /* ========== RESPONSIVE ========== */
+        /* Responsive */
         @media (max-width: 992px) {
-            .contact-grid {
-                grid-template-columns: 1fr;
-            }
+            .contact-grid { grid-template-columns: 1fr; }
             h1 { font-size: 2.6rem; }
             h2 { font-size: 2.2rem; }
             h3 { font-size: 1.8rem; }
-            .about-content {
-                grid-template-columns: 1fr;
-                gap: 2rem;
-            }
-            .hero h1 {
-                max-width: 60%;
-                font-size: 2.4rem;
-            }
+            .about-content { grid-template-columns: 1fr; gap: 2rem; }
+            .hero h1 { max-width: 60%; font-size: 2.4rem; }
         }
-
         @media (max-width: 768px) {
-            /* Menú hamburguesa */
             .nav-links {
                 display: none;
                 position: absolute;
@@ -840,669 +618,637 @@
                 box-shadow: var(--shadow);
                 z-index: 101;
             }
-            .nav-links.active {
-                display: flex;
-            }
-            .nav-links a {
-                color: white;
-                padding: 0.8rem 0;
-                text-align: center;
-                width: 100%;
-            }
-            .nav-links .btn-reservar-nav {
-                display: inline-block;
-                width: auto;
-                margin-top: 0.5rem;
-                padding: 0.6rem 2rem;
-                text-align: center;
-            }
-            .mobile-menu-btn {
-                display: block;
-            }
-
-            /* Hero centrado */
-            .hero {
-                text-align: center;
-                padding: 1.5rem 1.5rem 0.5rem;
-            }
-            .hero .container {
-                text-align: center;
-            }
-            .hero-logo-title {
-                flex-direction: column;
-                align-items: center;
-                gap: 1rem;
-                flex-wrap: wrap;
-            }
-            .hero-logo img {
-                height: 120px;
-            }
-            .hero h1 {
-                max-width: 100%;
-                text-align: center;
-                font-size: 2rem;
-                margin-bottom: 0.5rem;
-            }
-            .hero p {
-                text-align: center;
-                margin-left: auto;
-                margin-right: auto;
-            }
-
-            .hero-buttons-wrapper {
-                flex-direction: column;
-                align-items: center;
-                gap: 1rem;
-            }
-
-            .hero-social {
-                justify-content: center;
-            }
-
-            .btn {
-                padding: 0.8rem 1.2rem;
-                font-size: 1rem;
-                white-space: nowrap;
-            }
-            .btn i {
-                margin-right: 6px;
-            }
-            section {
-                padding: 3rem 1rem;
-            }
-            h2 {
-                font-size: 2rem;
-            }
-            .services-three-grid {
-                grid-template-columns: 1fr;
-            }
+            .nav-links.active { display: flex; }
+            .nav-links a { padding: 0.8rem 0; text-align: center; width: 100%; }
+            .mobile-menu-btn { display: block; }
+            .hero { text-align: center; padding: 1.5rem 1.5rem 0.5rem; }
+            .hero .container { text-align: center; }
+            .hero-logo-title { flex-direction: column; align-items: center; gap: 1rem; }
+            .hero-logo img { height: 120px; }
+            .hero h1 { max-width: 100%; text-align: center; font-size: 2rem; }
+            .hero p { text-align: center; margin-left: auto; margin-right: auto; }
+            .hero-buttons-wrapper { flex-direction: column; align-items: center; gap: 1rem; }
+            .hero-social { justify-content: center; }
+            .btn { padding: 0.8rem 1.2rem; font-size: 1rem; white-space: nowrap; }
+            section { padding: 3rem 1rem; }
+            .services-three-grid { grid-template-columns: 1fr; }
+            .testimonials-carousel-container { padding: 0 50px; }
+            .testimonial-card { min-width: 280px; flex: 0 0 280px; padding: 1.2rem; }
+            .carousel-btn { width: 40px; height: 40px; font-size: 1rem; }
+            .booking-container { padding: 1.5rem; }
+            .btn-reservar-book { font-size: 1.1rem; padding: 12px 24px; }
         }
-
         @media (max-width: 480px) {
-            .btn {
-                padding: 0.7rem 1rem;
-                font-size: 0.9rem;
-            }
-            .hero-logo img {
-                height: 120px;
-            }
-            .hero h1 {
-                font-size: 1.8rem;
-            }
-            .hero p {
-                font-size: 1rem;
-            }
+            .btn { padding: 0.7rem 1rem; font-size: 0.9rem; }
+            .hero-logo img { height: 120px; }
+            .hero h1 { font-size: 1.8rem; }
+            .hero p { font-size: 1rem; }
+            .testimonials-carousel-container { padding: 0 30px; }
+            .testimonial-card { min-width: 260px; flex: 0 0 260px; }
+            .rating-score { font-size: 2.5rem; }
+            .rating-stars { font-size: 1.5rem; }
         }
     </style>
 </head>
 <body>
-    <!-- ==================== HEADER ==================== -->
-    <header>
-        <div class="container nav-container">
-            <div class="logo">
-                <img src="logo.png" alt="Logo Arroba Eventos">
-                <span>Arroba Eventos</span>
-            </div>
-            <button class="mobile-menu-btn" id="mobileMenuBtn">
-                <i class="fas fa-bars"></i>
-            </button>
-            <ul class="nav-links" id="navLinks">
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#servicios">Servicios</a></li>
-                <li><a href="#nosotros">Nosotros</a></li>
-                <li><a href="#salón">Salón</a></li>
-                <li><a href="#ubicacion">Ubicación y contacto</a></li>
-                <li><a href="#reservas" class="btn-reservar-nav">Reservar</a></li>
-            </ul>
+
+<!-- HEADER -->
+<header>
+    <div class="container nav-container">
+        <div class="logo">
+            <img src="logo.png" alt="Logo Arroba Eventos">
+            <span>Arroba Eventos</span>
         </div>
-    </header>
+        <button class="mobile-menu-btn" id="mobileMenuBtn"><i class="fas fa-bars"></i></button>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#salón">Salón</a></li>
+            <li><a href="#ubicacion">Ubicación y contacto</a></li>
+            <li><a href="#reservas" class="btn-reservar-nav">Reservar</a></li>
+        </ul>
+    </div>
+</header>
 
-    <!-- ==================== HERO ==================== -->
-    <section class="hero" id="inicio">
-        <div class="container">
-            <div class="hero-logo-title">
-                <div class="hero-logo">
-                    <img src="logo.png" alt="Logo Arroba Eventos">
-                </div>
-                <h1>¡Vení a festejar en Arroba Eventos!</h1>
-            </div>
-            <p>Hacemos los eventos más divertidos y con la mejor atención.<br>
-            Celebramos cumples infantiles, teens, y mucho más.</p>
-            
-            <div class="hero-buttons-wrapper">
-                <a href="https://wa.me/5493417808880?text=Hola,%20me%20interesa%20reservar%20un%20turno%20para%20un%20evento%20en%20Arroba%20Eventos" class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">
-                    <i class="fab fa-whatsapp"></i> Consultar por WhatsApp
-                </a>
-                <div class="hero-social">
-                    <a href="https://www.facebook.com/p/Sal%C3%B3n-Arroba-Eventos-100093817723282/" aria-label="Facebook" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
-                    <a href="https://www.instagram.com/arroba_eventos/" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
-                </div>
-            </div>
+<!-- HERO -->
+<section class="hero" id="inicio">
+    <div class="container">
+        <div class="hero-logo-title">
+            <div class="hero-logo"><img src="logo.png" alt="Logo Arroba Eventos"></div>
+            <h1>¡Vení a festejar en Arroba Eventos!</h1>
         </div>
-    </section>
-
-    <!-- ==================== SERVICIOS ==================== -->
-    <section class="services" id="servicios">
-        <div class="container">
-            <h2>Nuestros servicios</h2>
-            <p class="text-center" style="margin-bottom: 1rem;">Elegí la opción que mejor se adapte a tu celebración: Clásica, All Inclusive, Aquacumple, Cumple Teens o los talleres de Arroba Lúdico.</p>
-            <div class="services-three-grid">
-                <!-- Opción 1 - Clásica -->
-                <div class="service-panel">
-                    <h3>Opción 1<br>Clásica</h3>
-                    <p>Alquiler exclusivo del salón con atención profesional. Ideal si querés personalizar la comida y contar con un equipo completo de animación y servicio.</p>
-                    <ul class="feature-short-list">
-                        <li><i class="fas fa-check-circle"></i> Acceso a todas las instalaciones: pista de baile, inflable, metegol, pelotero, canchita de fútbol, kinder Montessori, sector artístico y más.</li>
-                        <li><i class="fas fa-check-circle"></i> 2 animadores + 1 mozo + 1 ayudante de cocina + 1 encargado general.</li>
-                        <li><i class="fas fa-check-circle"></i> Pintacaritas y glitter.</li>
-                        <li><i class="fas fa-check-circle"></i> Menú infantil con bebida (patitas, panchos u opción saludable).</li>
-                        <li><i class="fas fa-check-circle"></i> Piñata con bolsitas (sin caramelos) y vajilla completa.</li>
-                        <li><i class="fas fa-check-circle"></i> Podés traer tu propia comida (bebida de adultos se adquiere en el salón).</li>
-                    </ul>
-                    <a href="https://wa.me/5493417808880?text=Hola,%20me%20interesa%20la%20Opción%201%20–%20Clásica%20para%20un%20cumpleaños%20en%20Arroba%20Eventos.%20Quiero%20más%20información." class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-whatsapp"></i> Consultar
-                    </a>
-                </div>
-                <!-- Opción 2 - All Inclusive -->
-                <div class="service-panel">
-                    <h3>Opción 2<br>All Inclusive</h3>
-                    <p>Viví una experiencia totalmente organizada sin preocuparte por nada. Sumamos extras para que todo sea aún más especial y pensado hasta el último detalle.</p>
-                    <ul class="feature-short-list">
-                        <li><i class="fas fa-check-circle"></i> Todo lo de la Opción 1, más los siguientes beneficios:</li>
-                        <li><i class="fas fa-check-circle"></i> Piñata con caramelos incluidos.</li>
-                        <li><i class="fas fa-check-circle"></i> Pochoclos o heladitos para los chicos.</li>
-                        <li><i class="fas fa-check-circle"></i> Servicio de café y té en el momento de la torta.</li>
-                        <li><i class="fas fa-check-circle"></i> Juegos con burbujas y Mega Burbuja gigante.</li>
-                        <li><i class="fas fa-check-circle"></i> Coordinación total del evento, sin que te falte nada.</li>
-                    </ul>
-                    <a href="https://wa.me/5493417808880?text=Hola,%20quiero%20conocer%20más%20sobre%20la%20Opción%202%20–%20All%20Inclusive%20en%20Arroba%20Eventos.%20Gracias." class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-whatsapp"></i> Consultar
-                    </a>
-                </div>
-                <!-- Aquacumple -->
-                <div class="service-panel">
-                    <h3>Aquacumple</h3>
-                    <p>La propuesta más divertida para los días de calor: juegos con agua en un entorno seguro, sin piletas y con piso antideslizante.</p>
-                    <ul class="feature-short-list">
-                        <li><i class="fas fa-check-circle"></i> Juegos con agua al aire libre: carreras con vasos, esponjas, pesca acuática.</li>
-                        <li><i class="fas fa-check-circle"></i> Kermés acuática + resbalador gigante.</li>
-                        <li><i class="fas fa-check-circle"></i> Actividades cooperativas y súper participativas.</li>
-                        <li><i class="fas fa-check-circle"></i> Disponible de diciembre a marzo (sin costo adicional).</li>
-                        <li><i class="fas fa-check-circle"></i> Para chicos a partir de 5 años. Si el clima no acompaña, realizamos propuestas alternativas igual de divertidas.</li>
-                        <li><i class="fas fa-check-circle"></i> Opcional: inflable acuático (consultar disponibilidad).</li>
-                    </ul>
-                    <a href="https://wa.me/5493417808880?text=Hola,%20me%20gustaría%20saber%20más%20sobre%20la%20propuesta%20Aquacumple%20en%20Arroba%20Eventos.%20¿Está%20disponible%20para%20mi%20fecha?" class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-whatsapp"></i> Consultar
-                    </a>
-                </div>
-                <!-- Cumple Teens -->
-                <div class="service-panel">
-                    <h3>Cumple Teens</h3>
-                    <p>La celebración ideal para adolescentes de 11 a 14 años: pista de baile estilo matinée, shows de luces, juegos de just dance, fútbol y animadores especializados.</p>
-                    <ul class="feature-short-list">
-                        <li><i class="fas fa-check-circle"></i> Pista estilo matinée con luces y máquina de humo.</li>
-                        <li><i class="fas fa-check-circle"></i> Just Dance, competencia de baile y canchita de fútbol.</li>
-                        <li><i class="fas fa-check-circle"></i> Make up artist para los invitados.</li>
-                        <li><i class="fas fa-check-circle"></i> Menú teens: pizza libre, saladitos y gaseosas línea Coca-Cola.</li>
-                        <li><i class="fas fa-check-circle"></i> 2 animadores + 1 coordinador especializados en adolescentes.</li>
-                        <li><i class="fas fa-check-circle"></i> Invitación virtual, candy bar y vajilla completa incluida.</li>
-                    </ul>
-                    <a href="https://wa.me/5493417808880?text=Hola,%20quiero%20información%20sobre%20el%20Cumple%20Teens%20en%20Arroba%20Eventos" class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-whatsapp"></i> Consultar
-                    </a>
-                </div>
-                <!-- NUEVO: Arroba Lúdico -->
-                <div class="service-panel">
-                    <h3>Arroba Lúdico</h3>
-                    <p>Sumá talleres creativos y lúdicos para que los chicos vivan una experiencia única: arte, pastelería, textil, bijou y mucho más. ¡Se llevan su producción de regalo!</p>
-                    <ul class="feature-short-list">
-                        <li><i class="fas fa-check-circle"></i> Talleres temáticos adaptados a cada edad: deco textil (tote bag, remeras, gorras, capas), pastelería, artesanías y arte flúo.</li>
-                        <li><i class="fas fa-check-circle"></i> Opciones como Kermes Kids, arte sensorial, muñecos personalizados y arte bijou.</li>
-                        <li><i class="fas fa-check-circle"></i> Los chicos se llevan su creación como souvenir (excepto Cumple Mojado, Kermes Kids y Arte Flúo).</li>
-                        <li><i class="fas fa-check-circle"></i> Coordinación y materiales incluidos. Sumalo a tu paquete All Inclusive o Clásico.</li>
-                        <li><i class="fas fa-check-circle"></i> Consultar por valores, disponibilidad y combinaciones con otros servicios.</li>
-                    </ul>
-                    <a href="https://wa.me/5493417808880?text=Hola,%20me%20interesa%20incorporar%20Arroba%20Lúdico%20a%20mi%20evento.%20¿Me%20pueden%20dar%20más%20información?" class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-whatsapp"></i> Consultar
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ==================== TESTIMONIOS / COMENTARIOS (ACTUALIZADO) ==================== -->
-    <section class="testimonials" id="testimonios">
-        <div class="container">
-            <h2>Lo que dicen nuestros clientes</h2>
-            <div class="overall-rating">
-                <div class="rating-score">4.8/5</div>
-                <div class="rating-stars">
-                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                </div>
-                <div class="rating-text"><a href="https://maps.app.goo.gl/VKcjPQDMoCmLJ3CK7" target="_blank">186 reseñas en Google</a></div>
-            </div>
-
-            <div class="testimonials-carousel-container" id="testimonialsCarouselContainer">
-                <button class="carousel-btn prev" id="testPrevBtn"><i class="fas fa-chevron-left"></i></button>
-                <div class="testimonials-carousel" id="testimonialsCarousel">
-                    <!-- Comentario 1 -->
-                    <div class="testimonial-card" data-index="0">
-                        <div class="testimonial-header">
-                            <div class="testimonial-avatar"><i class="fas fa-user-circle"></i></div>
-                            <div class="testimonial-info"><h4>MARIA SOLEDAD LAMI</h4><p>Cliente</p></div>
-                        </div>
-                        <div class="testimonial-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                        <div class="testimonial-text">"Desde el día q los fuimos a conocer hasta días de pasado el evento estuvieron en todos los detalles. La propuesta del Lúdico es una gran idea!!! Los mozos todo el tiempo sirviendo las mesas y atentos a todos. La gente y nosotros FELICES!!!…"</div>
-                        <div class="testimonial-date">Hace 9 meses</div>
-                    </div>
-                    <!-- Comentario 2 -->
-                    <div class="testimonial-card" data-index="1">
-                        <div class="testimonial-header">
-                            <div class="testimonial-avatar"><i class="fas fa-user-circle"></i></div>
-                            <div class="testimonial-info"><h4>Marcelo N. Meza</h4><p>Cliente</p></div>
-                        </div>
-                        <div class="testimonial-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                        <div class="testimonial-text">"Festejamos el cumpleaños número 7 de mi hija. Fue un cumple soñado. Guada la pasó muy bien, se divirtió mucha al igual que sus compañeros. La atención de 10, todo correcto. Muy amable todo el personal y muy predispuestos. Los coordinadores de los chicos súper atentos en todo momento."</div>
-                        <div class="testimonial-date">Hace 3 meses</div>
-                    </div>
-                    <!-- Comentario 3 -->
-                    <div class="testimonial-card" data-index="2">
-                        <div class="testimonial-header">
-                            <div class="testimonial-avatar"><i class="fas fa-user-circle"></i></div>
-                            <div class="testimonial-info"><h4>Laurita Antuña</h4><p>Cliente</p></div>
-                        </div>
-                        <div class="testimonial-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                        <div class="testimonial-text">"El salón es muy cómodo y amplio, las animadoras muy atentas al grupo y a las necesidades de la cumplañera al igual que el resto del personal. El menú que ofrecen es variado y bueno también. Las pizzas riquísimas  Excelente servicio."</div>
-                        <div class="testimonial-date">Hace 2 meses</div>
-                    </div>
-                    <!-- Comentario 4 -->
-                    <div class="testimonial-card" data-index="3">
-                        <div class="testimonial-header">
-                            <div class="testimonial-avatar"><i class="fas fa-user-circle"></i></div>
-                            <div class="testimonial-info"><h4>Erika Fraire</h4><p>Cliente</p></div>
-                        </div>
-                        <div class="testimonial-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                        <div class="testimonial-text">"Todo excelente, pasamos un hermoso cumple, no tengo ninguna queja, todo salió hermoso, el salón muy limpio y cuidado, las chicas súper atentas."</div>
-                        <div class="testimonial-date">Hace 7 meses</div>
-                    </div>
-                    <!-- Comentario 5 -->
-                    <div class="testimonial-card" data-index="4">
-                        <div class="testimonial-header">
-                            <div class="testimonial-avatar"><i class="fas fa-user-circle"></i></div>
-                            <div class="testimonial-info"><h4>Mariano Santini</h4><p>Cliente</p></div>
-                        </div>
-                        <div class="testimonial-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                        <div class="testimonial-text">"Todavía no contratamos el servicio, pero ya queremos destacar la atención recibida. La chica que nos escribió por WhatsApp fue divina: clara, predispuesta y súper amable. En ningún otro lugar nos atendieron así. Si el servicio es tan bueno como la atención inicial, debe ser excelente. ¡Da mucha confianza!"</div>
-                        <div class="testimonial-date">Hace 5 meses</div>
-                    </div>
-                    <!-- Comentario 6 -->
-                    <div class="testimonial-card" data-index="5">
-                        <div class="testimonial-header">
-                            <div class="testimonial-avatar"><i class="fas fa-user-circle"></i></div>
-                            <div class="testimonial-info"><h4>jorge leschuk</h4><p>Cliente</p></div>
-                        </div>
-                        <div class="testimonial-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                        <div class="testimonial-text">"Mí experiencia fue muy buena. Te asesoran respecto al cumpleaños. Te preguntan que le gusta a la/el agasajado/a. Te hacen sugerencias de que servir primero, las seños están presentes en todo momento. Los súper recomiendo. La coordinadora…"</div>
-                        <div class="testimonial-date">Hace un año</div>
-                    </div>
-                    <!-- Comentario 7 -->
-                    <div class="testimonial-card" data-index="6">
-                        <div class="testimonial-header">
-                            <div class="testimonial-avatar"><i class="fas fa-user-circle"></i></div>
-                            <div class="testimonial-info"><h4>Leisa Boccardo</h4><p>Cliente</p></div>
-                        </div>
-                        <div class="testimonial-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                        <div class="testimonial-text">"Excelente la atención, Desde el primer momento con mucha ayuda en la planificación y organización previa.…"</div>
-                        <div class="testimonial-date">Hace un año</div>
-                    </div>
-                    <!-- Comentario 8 -->
-                    <div class="testimonial-card" data-index="7">
-                        <div class="testimonial-header">
-                            <div class="testimonial-avatar"><i class="fas fa-user-circle"></i></div>
-                            <div class="testimonial-info"><h4>Paula Ghella</h4><p>Cliente</p></div>
-                        </div>
-                        <div class="testimonial-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                        <div class="testimonial-text">"Muy linda atención! Las animadoras muy amorosas y comprometidas en el cuidado y diversión de lxs niñxs! Hermosa experiencia para celebrar los cumples!"</div>
-                        <div class="testimonial-date">Hace un año</div>
-                    </div>
-                    <!-- Comentario 9 -->
-                    <div class="testimonial-card" data-index="8">
-                        <div class="testimonial-header">
-                            <div class="testimonial-avatar"><i class="fas fa-user-circle"></i></div>
-                            <div class="testimonial-info"><h4>Candela Milano</h4><p>Cliente</p></div>
-                        </div>
-                        <div class="testimonial-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                        <div class="testimonial-text">"Fue una experiencia inolvidable!! Superó todas nuestras expectativas, tuvieron en cuenta cada pedido que hicimos, un gran equipo sin dudas. Muchas gracias!!♥️"</div>
-                        <div class="testimonial-date">Hace 2 meses</div>
-                    </div>
-                    <!-- Comentario 10 -->
-                    <div class="testimonial-card" data-index="9">
-                        <div class="testimonial-header">
-                            <div class="testimonial-avatar"><i class="fas fa-user-circle"></i></div>
-                            <div class="testimonial-info"><h4>Flavia Caballero</h4><p>Cliente</p></div>
-                        </div>
-                        <div class="testimonial-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                        <div class="testimonial-text">"El aquacumple es lo ideal en cumples de verano, los chicos la pasaron fabuloso! La atención es excelente y las profes unas genias, los chicos tuvieron muchísimas propuestas de juegos!! Gracias Arroba eventos!!"</div>
-                        <div class="testimonial-date">Fecha de edición: Hace 2 meses</div>
-                    </div>
-                </div>
-                <button class="carousel-btn next" id="testNextBtn"><i class="fas fa-chevron-right"></i></button>
-            </div>
-            <div class="carousel-indicators" id="testIndicators"></div>
-        </div>
-    </section>
-
-    <!-- ==================== QUIÉNES SOMOS ==================== -->
-    <section class="about-us" id="nosotros">
-        <div class="container">
-            <h2>Quiénes Somos</h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <p>Arroba Eventos es un salón especializado en crear cumpleaños únicos y llenos de magia. Nuestro enfoque es simple: que los chicos vivan una experiencia inolvidable y que vos puedas disfrutar sin preocuparte por nada. Trabajamos con un equipo profesional y especializado, que se adapta a la edad y las preferencias de cada cumpleañero. Acompañamos a cada familia desde la planificación hasta el cierre del evento, cuidando cada detalle para que todo salga perfecto.</p>
-                </div>
-                <div class="about-image">
-                    <img src="about.png" alt="Espacios y celebración en Arroba Eventos" loading="lazy">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ==================== GALERÍA ==================== -->
-    <section class="gallery" id="salón">
-        <div class="container">
-            <h2>Nuestro salón</h2>
-            <p class="text-center">Nuestras instalaciones incluyen pista de baile con luces, juegos inflables, pelotero, canchita de fútbol, sector artístico, kinder Montessori, patio externo y climatización total.</p>
-            <div class="gallery-container">
-                <div class="gallery-item"><img src="instalacion1.jpg" alt="Salón principal" loading="lazy"></div>
-                <div class="gallery-item"><img src="instalacion2.jpg" alt="Candy bar" loading="lazy"></div>
-                <div class="gallery-item"><img src="instalacion3.jpg" alt="Pista de baile" loading="lazy"></div>
-                <div class="gallery-item"><img src="instalacion4.jpg" alt="Patio pelotero" loading="lazy"></div>
-                <div class="gallery-item"><img src="instalacion5.jpg" alt="Patio externo" loading="lazy"></div>
-                <div class="gallery-item"><img src="instalacion6.jpg" alt="Canchita" loading="lazy"></div>
-                <div class="gallery-item"><img src="instalacion7.jpg" alt="Sector kinder" loading="lazy"></div>
-                <div class="gallery-item"><img src="instalacion8.jpg" alt="Inflable" loading="lazy"></div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ==================== UBICACIÓN Y CONTACTO ==================== -->
-    <section class="location-contact" id="ubicacion">
-        <div class="container">
-            <h2>Ubicación y Contacto</h2>
-            <div class="contact-grid">
-                <div class="map-container">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2859.2117941260026!2d-60.6423949!3d-32.9676413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab0067ef582d%3A0x90108e44592f50f0!2s%40eventos%20Sal%C3%B3n%20de%20Fiestas!5e1!3m2!1ses!2sar!4v1777309089025!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-                <div class="contact-details">
-                    <div class="contact-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <div><h4>Dirección</h4><p>27 de febrero 1030, Rosario, Santa Fe</p></div>
-                    </div>
-                    <a href="tel:+5493417808880" class="contact-item contact-link">
-                        <i class="fas fa-phone-alt"></i>
-                        <div><h4>Teléfono</h4><p>(0341) 157-808880</p></div>
-                    </a>
-                    <a href="https://www.instagram.com/arroba_eventos/" target="_blank" class="contact-item contact-link">
-                        <i class="fab fa-instagram"></i>
-                        <div><h4>Instagram</h4><p>@arroba_eventos</p></div>
-                    </a>
-                    <div class="contact-item">
-                        <i class="fas fa-clock"></i>
-                        <div>
-                            <h4>Horarios de atención</h4>
-                            <ul class="schedule-list">
-                                <li><span>Mensajes: Lun. a sáb., 9:00 - 21:00</span></li>
-                                <li><span>Visitas: Sólo con cita previa</span></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <a href="https://maps.app.goo.gl/MqCK2D2MY9D3iDfq6" class="btn btn-maps" target="_blank">
-                        <i class="fas fa-map-marked-alt"></i> Cómo llegar
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ==================== RESERVAS (CTA) ==================== -->
-    <section class="final-cta" id="reservas">
-        <div class="container">
-            <h2>Reservá tu Evento</h2>
-            <p>Contamos con disponibilidad para eventos los fines de semana y días de semana. Te recomendamos reservar con anticipación para asegurar la fecha que deseas. Elegí la opción Clásica, All Inclusive, Aquacumple o Cumple Teens.</p>
-            <p>¡Solicitá información ahora mismo por WhatsApp y conocé todas las alternativas para tu celebración!</p>
-            <a href="https://wa.me/5493417808880?text=Hola,%20quiero%20consultar%20disponibilidad%20y%20las%20opciones%20para%20reservar%20en%20Arroba%20Eventos" class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">
-                <i class="fab fa-whatsapp"></i> Consultar disponibilidad
+        <p>Hacemos los eventos más divertidos y con la mejor atención.<br>Celebramos cumples infantiles, teens, y mucho más.</p>
+        <div class="hero-buttons-wrapper">
+            <a href="https://wa.me/5493417808880" class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-whatsapp"></i> Consultar por WhatsApp
             </a>
-        </div>
-    </section>
-
-    <!-- ==================== FOOTER ==================== -->
-    <footer id="contacto">
-        <div class="container">
-            <div class="footer-container">
-                <div class="footer-column">
-                    <h3>Arroba Eventos</h3>
-                    <p>Eventos inolvidables para toda la familia.</p>
-                    <div class="social-icons">
-                        <a href="https://www.facebook.com/p/Sal%C3%B3n-Arroba-Eventos-100093817723282/" aria-label="Facebook" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
-                        <a href="https://www.instagram.com/arroba_eventos/" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-                <div class="footer-column">
-                    <h3>Contacto</h3>
-                    <div class="contact-info"><i class="fas fa-map-marker-alt"></i><span>27 de febrero 1030, Rosario</span></div>
-                    <a href="tel:+5493417808880" class="contact-info contact-link"><i class="fas fa-phone-alt"></i><span>(0341) 157-808880</span></a>
-                    <a href="https://wa.me/5493417808880" target="_blank" class="contact-info contact-link"><i class="fab fa-whatsapp"></i><span>(0341) 157-808880</span></a>
-                </div>
-                <div class="footer-column">
-                    <h3>Atención</h3>
-                    <ul style="list-style: none;">
-                        <li>Mensajes: lun. a sáb. 9:00 - 18:00</li>
-                        <li>Visitas: con cita previa</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="copyright">
-                <p>&copy; <span id="currentYear"></span> Arroba Eventos - Todos los derechos reservados.</p>
+            <div class="hero-social">
+                <a href="https://www.facebook.com/p/Sal%C3%B3n-Arroba-Eventos-100093817723282/" aria-label="Facebook" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/arroba_eventos/" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
             </div>
         </div>
-    </footer>
+    </div>
+</section>
 
-    <!-- ==================== WHATSAPP FLOTANTE ==================== -->
-    <a href="https://wa.me/5493417808880?text=Hola,%20me%20interesa%20reservar%20un%20evento%20en%20Arroba%20Eventos" class="whatsapp-float" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+<!-- SERVICIOS -->
+<section class="services" id="servicios">
+    <div class="container">
+        <h2>Nuestros servicios</h2>
+        <p class="text-center" style="margin-bottom: 1rem;">Elegí la opción que mejor se adapte a tu celebración: Clásica, All Inclusive, Aquacumple, Cumple Teens o talleres Arroba Lúdico.</p>
+        <div class="services-three-grid">
+            <div class="service-panel">
+                <h3>Opción 1<br>Clásica</h3>
+                <p>Alquiler exclusivo del salón con atención profesional.</p>
+                <ul class="feature-short-list">
+                    <li><i class="fas fa-check-circle"></i> Acceso a todas las instalaciones</li>
+                    <li><i class="fas fa-check-circle"></i> 2 animadores + 1 mozo + ayudante cocina</li>
+                    <li><i class="fas fa-check-circle"></i> Pintacaritas y glitter</li>
+                    <li><i class="fas fa-check-circle"></i> Menú infantil con bebida</li>
+                    <li><i class="fas fa-check-circle"></i> Piñata con bolsitas y vajilla</li>
+                    <li><i class="fas fa-check-circle"></i> Podés traer tu propia comida</li>
+                </ul>
+                <a href="https://wa.me/5493417808880?text=%C2%A1Hola!%20Quiero%20consultarles%20por%20Opci%C3%B3n%201%20Cl%C3%A1sica" class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-whatsapp"></i> Consultar
+                </a>
+            </div>
+            <div class="service-panel">
+                <h3>Opción 2<br>All Inclusive</h3>
+                <p>Experiencia totalmente organizada sin preocupaciones.</p>
+                <ul class="feature-short-list">
+                    <li><i class="fas fa-check-circle"></i> Todo lo de Clásica + extras</li>
+                    <li><i class="fas fa-check-circle"></i> Piñata con caramelos</li>
+                    <li><i class="fas fa-check-circle"></i> Pochoclos o heladitos</li>
+                    <li><i class="fas fa-check-circle"></i> Café y té en la torta</li>
+                    <li><i class="fas fa-check-circle"></i> Juegos con burbujas</li>
+                    <li><i class="fas fa-check-circle"></i> Coordinación total</li>
+                </ul>
+                <a href="https://wa.me/5493417808880?text=%C2%A1Hola!%20Quiero%20consultarles%20por%20Opci%C3%B3n%202%20All%20Inclusive" class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-whatsapp"></i> Consultar
+                </a>
+            </div>
+            <div class="service-panel">
+                <h3>Aquacumple</h3>
+                <p>Juegos con agua en un entorno seguro (diciembre a marzo).</p>
+                <ul class="feature-short-list">
+                    <li><i class="fas fa-check-circle"></i> Juegos con agua al aire libre</li>
+                    <li><i class="fas fa-check-circle"></i> Kermés acuática + resbalador</li>
+                    <li><i class="fas fa-check-circle"></i> Actividades cooperativas</li>
+                    <li><i class="fas fa-check-circle"></i> Opcional inflable acuático</li>
+                </ul>
+                <a href="https://wa.me/5493417808880?text=%C2%A1Hola!%20Quiero%20consultarles%20por%20Aquacumple" class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-whatsapp"></i> Consultar
+                </a>
+            </div>
+            <div class="service-panel">
+                <h3>Cumple Teens</h3>
+                <p>Para adolescentes de 11 a 14 años: pista de baile y shows.</p>
+                <ul class="feature-short-list">
+                    <li><i class="fas fa-check-circle"></i> Pista estilo matinée con luces</li>
+                    <li><i class="fas fa-check-circle"></i> Just Dance, fútbol</li>
+                    <li><i class="fas fa-check-circle"></i> Make up artist</li>
+                    <li><i class="fas fa-check-circle"></i> Menú teens: pizza libre</li>
+                    <li><i class="fas fa-check-circle"></i> Animadores especializados</li>
+                </ul>
+                <a href="https://wa.me/5493417808880?text=%C2%A1Hola!%20Quiero%20consultarles%20por%20Cumple%20Teens" class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-whatsapp"></i> Consultar
+                </a>
+            </div>
+            <div class="service-panel">
+                <h3>Arroba Lúdico</h3>
+                <p>Talleres creativos: arte, pastelería, textil, bijou.</p>
+                <ul class="feature-short-list">
+                    <li><i class="fas fa-check-circle"></i> Talleres adaptados por edad</li>
+                    <li><i class="fas fa-check-circle"></i> Kermes Kids, arte sensorial</li>
+                    <li><i class="fas fa-check-circle"></i> Se llevan su creación de souvenir</li>
+                    <li><i class="fas fa-check-circle"></i> Sumalo a tu paquete</li>
+                </ul>
+                <a href="https://wa.me/5493417808880?text=%C2%A1Hola!%20Quiero%20consultarles%20por%20Arroba%20L%C3%BAdico" class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-whatsapp"></i> Consultar
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
 
-    <script>
-        // Menú móvil
-        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
-        const navLinks = document.getElementById('navLinks');
-        mobileMenuBtn.addEventListener('click', () => navLinks.classList.toggle('active'));
-        document.querySelectorAll('.nav-links a').forEach(link => link.addEventListener('click', () => navLinks.classList.remove('active')));
+<!-- TESTIMONIOS CARRUSEL -->
+<section class="testimonials" id="testimonios">
+    <div class="container">
+        <h2>Lo que dicen nuestros clientes</h2>
+        <div class="overall-rating">
+            <div class="rating-score">4.8/5</div>
+            <div class="rating-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+            <div class="rating-text"><a href="https://maps.app.goo.gl/VKcjPQDMoCmLJ3CK7" target="_blank">186 reseñas en Google</a></div>
+        </div>
+        <div class="testimonials-carousel-container" id="testimonialsCarouselContainer">
+            <button class="carousel-btn prev" id="testPrevBtn"><i class="fas fa-chevron-left"></i></button>
+            <div class="testimonials-carousel" id="testimonialsCarousel">
+                <div class="testimonial-card"><div class="testimonial-header"><div class="testimonial-avatar"><i class="fas fa-user-circle"></i></div><div class="testimonial-info"><h4>MARIA SOLEDAD LAMI</h4><p>Cliente</p></div></div><div class="testimonial-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div><div class="testimonial-text">"Desde el día q los fuimos a conocer hasta días de pasado el evento estuvieron en todos los detalles. La propuesta del Lúdico es una gran idea!!! Los mozos todo el tiempo sirviendo las mesas y atentos a todos."</div><div class="testimonial-date">Hace 9 meses</div></div>
+                <div class="testimonial-card"><div class="testimonial-header"><div class="testimonial-avatar"><i class="fas fa-user-circle"></i></div><div class="testimonial-info"><h4>Marcelo N. Meza</h4><p>Cliente</p></div></div><div class="testimonial-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div><div class="testimonial-text">"Festejamos el cumpleaños número 7 de mi hija. Fue un cumple soñado. La atención de 10, todo correcto. Muy amable todo el personal."</div><div class="testimonial-date">Hace 3 meses</div></div>
+                <div class="testimonial-card"><div class="testimonial-header"><div class="testimonial-avatar"><i class="fas fa-user-circle"></i></div><div class="testimonial-info"><h4>Laurita Antuña</h4><p>Cliente</p></div></div><div class="testimonial-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div><div class="testimonial-text">"El salón es muy cómodo y amplio, las animadoras muy atentas. El menú que ofrecen es variado y bueno. Excelente servicio."</div><div class="testimonial-date">Hace 2 meses</div></div>
+                <div class="testimonial-card"><div class="testimonial-header"><div class="testimonial-avatar"><i class="fas fa-user-circle"></i></div><div class="testimonial-info"><h4>Erika Fraire</h4><p>Cliente</p></div></div><div class="testimonial-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div><div class="testimonial-text">"Todo excelente, pasamos un hermoso cumple, el salón muy limpio y cuidado, las chicas súper atentas."</div><div class="testimonial-date">Hace 7 meses</div></div>
+                <div class="testimonial-card"><div class="testimonial-header"><div class="testimonial-avatar"><i class="fas fa-user-circle"></i></div><div class="testimonial-info"><h4>Mariano Santini</h4><p>Cliente</p></div></div><div class="testimonial-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div><div class="testimonial-text">"Todavía no contratamos, pero la atención por WhatsApp fue divina: clara, predispuesta. Da mucha confianza."</div><div class="testimonial-date">Hace 5 meses</div></div>
+                <div class="testimonial-card"><div class="testimonial-header"><div class="testimonial-avatar"><i class="fas fa-user-circle"></i></div><div class="testimonial-info"><h4>jorge leschuk</h4><p>Cliente</p></div></div><div class="testimonial-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div><div class="testimonial-text">"Mí experiencia fue muy buena. Te asesoran, preguntan qué le gusta al agasajado. Las seños presentes todo el tiempo."</div><div class="testimonial-date">Hace un año</div></div>
+                <div class="testimonial-card"><div class="testimonial-header"><div class="testimonial-avatar"><i class="fas fa-user-circle"></i></div><div class="testimonial-info"><h4>Leisa Boccardo</h4><p>Cliente</p></div></div><div class="testimonial-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div><div class="testimonial-text">"Excelente la atención, desde el primer momento con mucha ayuda en la planificación."</div><div class="testimonial-date">Hace un año</div></div>
+                <div class="testimonial-card"><div class="testimonial-header"><div class="testimonial-avatar"><i class="fas fa-user-circle"></i></div><div class="testimonial-info"><h4>Paula Ghella</h4><p>Cliente</p></div></div><div class="testimonial-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div><div class="testimonial-text">"Muy linda atención. Las animadoras amorosas y comprometidas. Hermosa experiencia."</div><div class="testimonial-date">Hace un año</div></div>
+                <div class="testimonial-card"><div class="testimonial-header"><div class="testimonial-avatar"><i class="fas fa-user-circle"></i></div><div class="testimonial-info"><h4>Candela Milano</h4><p>Cliente</p></div></div><div class="testimonial-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div><div class="testimonial-text">"Fue una experiencia inolvidable!! Superó todas nuestras expectativas, un gran equipo."</div><div class="testimonial-date">Hace 2 meses</div></div>
+                <div class="testimonial-card"><div class="testimonial-header"><div class="testimonial-avatar"><i class="fas fa-user-circle"></i></div><div class="testimonial-info"><h4>Flavia Caballero</h4><p>Cliente</p></div></div><div class="testimonial-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div><div class="testimonial-text">"El aquacumple es ideal en verano, los chicos la pasaron fabuloso. Las profes unas genias."</div><div class="testimonial-date">Hace 2 meses</div></div>
+            </div>
+            <button class="carousel-btn next" id="testNextBtn"><i class="fas fa-chevron-right"></i></button>
+        </div>
+        <div class="carousel-indicators" id="testIndicators"></div>
+    </div>
+</section>
 
-        // Scroll suave
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
-                const targetId = this.getAttribute('href');
-                if(targetId === '#') return;
-                const targetElement = document.querySelector(targetId);
-                if(targetElement) {
-                    e.preventDefault();
-                    window.scrollTo({ top: targetElement.offsetTop - 80, behavior: 'smooth' });
-                }
-            });
+<!-- QUIÉNES SOMOS -->
+<section class="about-us" id="nosotros">
+    <div class="container">
+        <h2>Quiénes Somos</h2>
+        <div class="about-content">
+            <div class="about-text"><p>Arroba Eventos es un salón especializado en crear cumpleaños únicos y llenos de magia. Trabajamos con un equipo profesional que se adapta a la edad y preferencias de cada cumpleañero. Acompañamos a cada familia desde la planificación hasta el cierre del evento, cuidando cada detalle para que todo salga perfecto.</p></div>
+            <div class="about-image"><img src="hero.webp" alt="Espacios y celebración en Arroba Eventos" loading="lazy"></div>
+        </div>
+    </div>
+</section>
+
+<!-- GALERÍA -->
+<section class="gallery" id="salón">
+    <div class="container">
+        <h2>Nuestro salón</h2>
+        <p class="text-center">Instalaciones con pista de baile, inflables, pelotero, canchita de fútbol, sector artístico, kinder Montessori y climatización.</p>
+        <div class="gallery-container">
+            <div class="gallery-item"><img src="instalacion1.jpg" alt="Salón principal" loading="lazy"></div>
+            <div class="gallery-item"><img src="instalacion2.jpg" alt="Candy bar" loading="lazy"></div>
+            <div class="gallery-item"><img src="instalacion3.jpg" alt="Pista de baile" loading="lazy"></div>
+            <div class="gallery-item"><img src="instalacion4.jpg" alt="Patio pelotero" loading="lazy"></div>
+            <div class="gallery-item"><img src="instalacion5.jpg" alt="Patio externo" loading="lazy"></div>
+            <div class="gallery-item"><img src="instalacion6.jpg" alt="Canchita" loading="lazy"></div>
+            <div class="gallery-item"><img src="instalacion7.jpg" alt="Sector kinder" loading="lazy"></div>
+            <div class="gallery-item"><img src="instalacion8.jpg" alt="Inflable" loading="lazy"></div>
+        </div>
+    </div>
+</section>
+
+<!-- UBICACIÓN Y CONTACTO -->
+<section class="location-contact" id="ubicacion">
+    <div class="container">
+        <h2>Ubicación y Contacto</h2>
+        <div class="contact-grid">
+            <div class="map-container"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2859.2117941260026!2d-60.6423949!3d-32.9676413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab0067ef582d%3A0x90108e44592f50f0!2s%40eventos%20Sal%C3%B3n%20de%20Fiestas!5e1!3m2!1ses!2sar!4v1777309089025!5m2!1ses!2sar" allowfullscreen loading="lazy"></iframe></div>
+            <div class="contact-details">
+                <div class="contact-item"><i class="fas fa-map-marker-alt"></i><div><h4>Dirección</h4><p>27 de febrero 1030, Rosario, Santa Fe</p></div></div>
+                <a href="tel:+5493417808880" class="contact-item contact-link"><i class="fas fa-phone-alt"></i><div><h4>Teléfono</h4><p>(0341) 157-808880</p></div></a>
+                <a href="https://www.instagram.com/arroba_eventos/" target="_blank" class="contact-item contact-link"><i class="fab fa-instagram"></i><div><h4>Instagram</h4><p>@arroba_eventos</p></div></a>
+                <div class="contact-item"><i class="fas fa-clock"></i><div><h4>Horarios de atención</h4><ul class="schedule-list"><li>Mensajes: Lun. a dom., 9:00 - 21:00</li><li>Visitas: Sólo con cita previa</li></ul></div></div>
+                <a href="https://maps.app.goo.gl/VKcjPQDMoCmLJ3CK7" class="btn btn-maps" target="_blank"><i class="fas fa-map-marked-alt"></i> Cómo llegar</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECCIÓN RESERVAS con sistema de turnos (reemplazo total) -->
+<section class="final-cta" id="reservas">
+    <div class="container">
+        <div class="booking-container">
+            <h2 style="color:white; text-shadow:none;">📅 Reservá tu turno</h2>
+            <p style="color:white; font-weight:500;">Elegí fecha y horario en nuestro calendario.</p>
+            <button class="btn-reservar-book" id="btnReservarTurno">
+                <i class="fas fa-calendar-check"></i> Reservar ahora
+            </button>
+            <div id="mensajeExito" class="mensaje-exito">
+                ✅ ¡Turno confirmado!<br>Revisá tu correo electrónico.
+            </div>
+            <div id="linkReintentar" class="link-reintentar">
+                🔄 <a id="resetLink">¿Necesitas agendar otro turno? Haz clic aquí</a>
+            </div>
+            <div id="warningPopup" class="warning-popup">
+                ⚠️ Tu navegador bloqueó la ventana emergente. Permití pop-ups para este sitio.
+            </div>
+            <div class="footer-seguridad">
+                <span>🔒</span> Tus datos están seguros. Reservas gestionadas con <strong>Google Calendar</strong>.
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer id="contacto">
+    <div class="container">
+        <div class="footer-container">
+            <div class="footer-column"><h3>Arroba Eventos</h3><p>Eventos inolvidables para toda la familia.</p><div class="social-icons"><a href="https://www.facebook.com/p/Sal%C3%B3n-Arroba-Eventos-100093817723282/" target="_blank"><i class="fab fa-facebook-f"></i></a><a href="https://www.instagram.com/arroba_eventos/" target="_blank"><i class="fab fa-instagram"></i></a></div></div>
+            <div class="footer-column"><h3>Contacto</h3><div class="contact-info"><i class="fas fa-map-marker-alt"></i><span>27 de febrero 1030, Rosario</span></div><a href="tel:+5493417808880" class="contact-info contact-link"><i class="fas fa-phone-alt"></i><span>(0341) 157-808880</span></a><a href="https://wa.me/5493417808880" target="_blank" class="contact-info contact-link"><i class="fab fa-whatsapp"></i><span>(0341) 157-808880</span></a></div>
+            <div class="footer-column"><h3>Atención</h3><ul style="list-style: none;"><li>Mensajes: lun. a dom. 9:00 - 18:00</li><li>Visitas: con cita previa</li></ul></div>
+        </div>
+        <div class="copyright"><p>&copy; <span id="currentYear"></span> Arroba Eventos - Todos los derechos reservados.</p></div>
+    </div>
+</footer>
+
+<a href="https://wa.me/5493417808880?text=Hola%20quiero%20reservar%20en%20Arroba%20Eventos" class="whatsapp-float" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+
+<script>
+    // ----- Funcionalidades existentes (menú móvil, scroll suave, año, carrusel) -----
+    const mobileBtn = document.getElementById('mobileMenuBtn');
+    const nav = document.getElementById('navLinks');
+    mobileBtn.addEventListener('click', () => nav.classList.toggle('active'));
+    document.querySelectorAll('.nav-links a').forEach(link => link.addEventListener('click', () => nav.classList.remove('active')));
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            const targetId = this.getAttribute('href');
+            if(targetId === '#') return;
+            const target = document.querySelector(targetId);
+            if(target) { e.preventDefault(); window.scrollTo({ top: target.offsetTop - 80, behavior: 'smooth' }); }
         });
-        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    });
+    document.getElementById('currentYear').textContent = new Date().getFullYear();
 
-        // ========== CARRUSEL DE TESTIMONIOS ==========
-        (function initTestimonialsCarousel() {
-            const carousel = document.getElementById('testimonialsCarousel');
-            const prevBtn = document.getElementById('testPrevBtn');
-            const nextBtn = document.getElementById('testNextBtn');
-            const indicatorsContainer = document.getElementById('testIndicators');
-            const cards = document.querySelectorAll('.testimonial-card');
-            const totalCards = cards.length;
-            let currentIndex = 1; // tarjeta activa central (la segunda)
-            let autoSlideInterval;
-            let isTransitioning = false;
-            let touchStartX = 0, touchEndX = 0, touchStartY = 0;
-            let isScrolling = false;
-            const swipeThreshold = 50;
+    // Carrusel testimonios (sin modificar)
+    (function() {
+        const carousel = document.getElementById('testimonialsCarousel');
+        const prevBtn = document.getElementById('testPrevBtn');
+        const nextBtn = document.getElementById('testNextBtn');
+        const indicators = document.getElementById('testIndicators');
+        const cards = document.querySelectorAll('.testimonial-card');
+        const total = cards.length;
+        let current = 1, autoInterval, transitioning = false;
+        let touchStartX = 0, touchStartY = 0, isScrollingFlag = false;
+        const swipeThreshold = 50;
 
-            function getDimensions() {
-                if (!cards.length) return null;
-                const firstCard = cards[0];
-                const container = document.getElementById('testimonialsCarouselContainer');
-                if (!firstCard || firstCard.offsetWidth === 0) return null;
-                return {
-                    cardWidth: firstCard.offsetWidth,
-                    containerWidth: container ? container.offsetWidth : window.innerWidth,
-                    gap: 20
-                };
-            }
-
-            function calculateOffset() {
-                const dims = getDimensions();
-                if (!dims) return 0;
-                const slideWidth = dims.cardWidth + dims.gap;
-                if (currentIndex === 0) return 0;
-                if (currentIndex === totalCards - 1) {
-                    const totalWidth = (slideWidth * totalCards) - dims.gap;
-                    return Math.max(0, totalWidth - dims.containerWidth);
-                }
-                return (currentIndex * slideWidth) - (dims.containerWidth / 2) + (dims.cardWidth / 2);
-            }
-
-            function applyTransform() {
-                if (isTransitioning) return;
-                let targetOffset = calculateOffset();
-                const dims = getDimensions();
-                if (!dims) return;
-                const slideWidth = dims.cardWidth + dims.gap;
-                const totalWidth = (slideWidth * totalCards) - dims.gap;
-                const maxOffset = Math.max(0, totalWidth - dims.containerWidth);
-                targetOffset = Math.max(0, Math.min(targetOffset, maxOffset));
-                carousel.style.transition = 'transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)';
-                carousel.style.transform = `translateX(-${targetOffset}px)`;
-                cards.forEach((card, idx) => {
-                    if (idx === currentIndex) card.classList.add('active');
-                    else card.classList.remove('active');
-                });
-                updateIndicators();
-                isTransitioning = true;
-                setTimeout(() => { isTransitioning = false; }, 500);
-            }
-
-            function updateIndicators() {
-                const indicators = document.querySelectorAll('#testIndicators .indicator');
-                indicators.forEach((ind, idx) => {
-                    if (idx === currentIndex) ind.classList.add('active');
-                    else ind.classList.remove('active');
-                });
-            }
-
-            function createIndicators() {
-                indicatorsContainer.innerHTML = '';
-                for (let i = 0; i < totalCards; i++) {
-                    const dot = document.createElement('div');
-                    dot.classList.add('indicator');
-                    if (i === currentIndex) dot.classList.add('active');
-                    dot.addEventListener('click', () => goToSlide(i));
-                    indicatorsContainer.appendChild(dot);
-                }
-            }
-
-            function goToSlide(index) {
-                if (isTransitioning) return;
-                if (index < 0) index = totalCards - 1;
-                if (index >= totalCards) index = 0;
-                currentIndex = index;
-                applyTransform();
-                resetAutoSlide();
-            }
-
-            function nextSlide() { goToSlide(currentIndex + 1); }
-            function prevSlide() { goToSlide(currentIndex - 1); }
-
-            function startAutoSlide() {
-                stopAutoSlide();
-                autoSlideInterval = setInterval(nextSlide, 7000);
-            }
-            function stopAutoSlide() { if (autoSlideInterval) clearInterval(autoSlideInterval); }
-            function resetAutoSlide() { stopAutoSlide(); startAutoSlide(); }
-
-            // Eventos táctiles
-            function handleTouchStart(e) {
-                if (e.target.closest('.carousel-btn')) return;
-                touchStartX = e.touches[0].clientX;
-                touchStartY = e.touches[0].clientY;
-                isScrolling = false;
-                stopAutoSlide();
-            }
-            function handleTouchMove(e) {
-                if (!touchStartX) return;
-                const deltaX = e.touches[0].clientX - touchStartX;
-                const deltaY = e.touches[0].clientY - touchStartY;
-                if (Math.abs(deltaY) > Math.abs(deltaX)) { isScrolling = true; return; }
-                e.preventDefault();
-                const dims = getDimensions();
-                if (!dims) return;
-                const currentOffset = calculateOffset();
-                const drag = deltaX / 2;
-                carousel.style.transition = 'none';
-                carousel.style.transform = `translateX(-${currentOffset - drag}px)`;
-            }
-            function handleTouchEnd(e) {
-                if (!touchStartX || isScrolling) {
-                    touchStartX = 0;
-                    resetAutoSlide();
-                    return;
-                }
-                const deltaX = e.changedTouches[0].clientX - touchStartX;
-                if (Math.abs(deltaX) > swipeThreshold) {
-                    if (deltaX > 0) prevSlide();
-                    else nextSlide();
-                } else {
-                    applyTransform();
-                }
-                touchStartX = 0;
-                isScrolling = false;
-                resetAutoSlide();
-            }
-
+        function getDims() {
+            const first = cards[0];
             const container = document.getElementById('testimonialsCarouselContainer');
-            if (container) {
-                container.addEventListener('touchstart', handleTouchStart, { passive: true });
-                container.addEventListener('touchmove', handleTouchMove, { passive: false });
-                container.addEventListener('touchend', handleTouchEnd);
+            if(!first) return null;
+            return { width: first.offsetWidth, gap: 20, containerW: container ? container.offsetWidth : window.innerWidth };
+        }
+        function calcOffset() {
+            const d = getDims();
+            if(!d) return 0;
+            const slideW = d.width + d.gap;
+            if(current === 0) return 0;
+            if(current === total-1) {
+                const totalW = (slideW * total) - d.gap;
+                return Math.max(0, totalW - d.containerW);
             }
-            prevBtn.addEventListener('click', (e) => { e.preventDefault(); prevSlide(); resetAutoSlide(); });
-            nextBtn.addEventListener('click', (e) => { e.preventDefault(); nextSlide(); resetAutoSlide(); });
-            createIndicators();
-            setTimeout(applyTransform, 100);
-            startAutoSlide();
-            window.addEventListener('resize', () => { setTimeout(applyTransform, 200); });
-        })();
-    </script>
+            return (current * slideW) - (d.containerW/2) + (d.width/2);
+        }
+        function apply() {
+            if(transitioning) return;
+            let offset = calcOffset();
+            const d = getDims();
+            if(d) {
+                const slideW = d.width + d.gap;
+                const maxOff = Math.max(0, (slideW * total - d.gap) - d.containerW);
+                offset = Math.min(maxOff, Math.max(0, offset));
+            }
+            carousel.style.transition = 'transform 0.5s cubic-bezier(0.25,0.46,0.45,0.94)';
+            carousel.style.transform = `translateX(-${offset}px)`;
+            cards.forEach((c,i) => i === current ? c.classList.add('active') : c.classList.remove('active'));
+            updateIndicators();
+            transitioning = true;
+            setTimeout(() => transitioning = false, 500);
+        }
+        function updateIndicators() {
+            const dots = document.querySelectorAll('#testIndicators .indicator');
+            dots.forEach((d,i) => i === current ? d.classList.add('active') : d.classList.remove('active'));
+        }
+        function goTo(idx) {
+            if(transitioning) return;
+            idx = (idx + total) % total;
+            current = idx;
+            apply();
+            resetAuto();
+        }
+        function next() { goTo(current+1); }
+        function prev() { goTo(current-1); }
+        function createIndicators() {
+            indicators.innerHTML = '';
+            for(let i=0; i<total; i++) {
+                const dot = document.createElement('div');
+                dot.classList.add('indicator');
+                if(i === current) dot.classList.add('active');
+                dot.addEventListener('click', () => goTo(i));
+                indicators.appendChild(dot);
+            }
+        }
+        function startAuto() { autoInterval = setInterval(next, 7000); }
+        function stopAuto() { if(autoInterval) clearInterval(autoInterval); }
+        function resetAuto() { stopAuto(); startAuto(); }
+        const container = document.getElementById('testimonialsCarouselContainer');
+        container.addEventListener('touchstart', (e) => {
+            if(e.target.closest('.carousel-btn')) return;
+            touchStartX = e.touches[0].clientX;
+            touchStartY = e.touches[0].clientY;
+            isScrollingFlag = false;
+            stopAuto();
+        }, { passive: true });
+        container.addEventListener('touchmove', (e) => {
+            if(!touchStartX) return;
+            const dx = e.touches[0].clientX - touchStartX;
+            const dy = e.touches[0].clientY - touchStartY;
+            if(Math.abs(dy) > Math.abs(dx)) { isScrollingFlag = true; return; }
+            e.preventDefault();
+            const dims = getDims();
+            if(dims) {
+                const curOff = calcOffset();
+                carousel.style.transition = 'none';
+                carousel.style.transform = `translateX(-${curOff - (dx/2)}px)`;
+            }
+        }, { passive: false });
+        container.addEventListener('touchend', (e) => {
+            if(!touchStartX || isScrollingFlag) { touchStartX = 0; resetAuto(); return; }
+            const delta = e.changedTouches[0].clientX - touchStartX;
+            if(Math.abs(delta) > swipeThreshold) delta > 0 ? prev() : next();
+            else apply();
+            touchStartX = 0;
+            isScrollingFlag = false;
+            resetAuto();
+        });
+        prevBtn.addEventListener('click', (e) => { e.preventDefault(); prev(); resetAuto(); });
+        nextBtn.addEventListener('click', (e) => { e.preventDefault(); next(); resetAuto(); });
+        createIndicators();
+        setTimeout(apply, 100);
+        startAuto();
+        window.addEventListener('resize', () => setTimeout(apply, 200));
+    })();
 
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "LocalBusiness",
-        "name": "Arroba Eventos",
-        "image": "instalacion2.jpg",
-        "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "27 de febrero 1030",
-            "addressLocality": "Rosario",
-            "addressRegion": "Santa Fe",
-            "addressCountry": "AR"
-        },
-        "telephone": "+5493417808880",
-        "openingHours": "Mo-Sa 09:00-21:00",
-        "priceRange": "$$",
-        "description": "Salón de fiestas para eventos infantiles en Rosario. Opciones Clásica, All Inclusive y Aquacumple. Amplias instalaciones y servicio personalizado.",
-        "url": "https://www.arroba-eventos.com",
-        "sameAs": ["https://www.instagram.com/arroba_eventos/", "https://www.facebook.com/p/Sal%C3%B3n-Arroba-Eventos-100093817723282/"]
-    }
-    </script>
+    // ----- SISTEMA DE RESERVA CON VENTANA EMERGENTE (POPUP CON IFRAME) -----
+    (function() {
+        // URL del calendario de Google (actualizada y funcional)
+        const RESERVA_URL = 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ3u4wEWBWyzk-dzy39pYyowaU0UfF8qKYnPLBvg29qyIcdPMXSERJBGjANtW_QDxcGHC_r2EYh3?gv=true';
+        const TIEMPO_MINIMO_MS = 15000; // 15 segundos
+
+        let ventanaPopup = null;
+        let intervalo = null;
+        let tiempoApertura = null;
+        let reservaConfirmada = false;
+
+        const btn = document.getElementById('btnReservarTurno');
+        const mensajeExito = document.getElementById('mensajeExito');
+        const linkReintentar = document.getElementById('linkReintentar');
+        const warningDiv = document.getElementById('warningPopup');
+        const resetLink = document.getElementById('resetLink');
+
+        // Genera el HTML de la ventana emergente que contendrá el iframe de Google Calendar
+	function generarHTMLPopup() {
+	    return `
+	    <!DOCTYPE html>
+	    <html>
+	    <head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Reservar en Arroba Eventos</title>
+		<style>
+		    * { margin: 0; padding: 0; box-sizing: border-box; }
+		    body {
+		        font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
+		        background: white;
+		        display: flex;
+		        flex-direction: column;
+		        height: 100vh;
+		        overflow: hidden;
+		    }
+		    .header {
+		        background: #CE9220;
+		        color: white;
+		        padding: 12px 20px;
+		        display: flex;
+		        justify-content: space-between;
+		        align-items: center;
+		        flex-shrink: 0;
+		    }
+		    .header h2 {
+		        font-size: 1.2rem;
+		        font-weight: 500;
+		    }
+		    /* Nuevo botón estilo servicio (azul violáceo) */
+		    .btn-cerrar-estilo {
+		        background: #49508D;  /* color secundario (azul violáceo) */
+		        border: none;
+		        color: white;
+		        padding: 8px 9px;
+		        border-radius: 50px;
+		        cursor: pointer;
+		        font-size: 0.9rem;
+		        font-weight: 600;
+		        display: inline-flex;
+		        align-items: center;
+		        gap: 12px;
+		        transition: all 0.3s ease;
+		        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+		    }
+		    .btn-cerrar-estilo:hover {
+		        background: #3a4270;
+		        transform: translateY(-2px);
+		        box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+		    }
+		    .btn-cerrar-estilo:active {
+		        transform: translateY(1px);
+		    }
+		    /* Cruz minimalista en círculo traslúcido */
+		    .close-icon {
+		        display: inline-flex;
+		        align-items: center;
+		        justify-content: center;
+		        width: 28px;
+		        height: 28px;
+		        background: rgba(255,255,255,0.2);
+		        border-radius: 50%;
+		        font-size: 1rem;
+		        font-weight: 400;
+		        transition: background 0.2s;
+		    }
+		    .btn-cerrar-estilo:hover .close-icon {
+		        background: rgba(255,255,255,0.4);
+		    }
+		    iframe {
+		        flex: 1;
+		        width: 100%;
+		        border: none;
+		        background: white;
+		    }
+		    .footer {
+		        background: #A92F26;
+		        padding: 16px 20px;
+		        text-align: center;
+		        font-size: 1rem;
+		        font-weight: 500;
+		        color: white;
+		        border-top: 1px solid rgba(255,255,255,0.2);
+		        flex-shrink: 0;
+		    }
+		</style>
+	    </head>
+	    <body>
+		<div class="header">
+		    <h2>📅 Sistema de reservas - Arroba Eventos</h2>
+		    <button class="btn-cerrar-estilo" id="btnCerrarManual">
+		        Ya completé mi reserva, cerrar ventana
+		        <span class="close-icon">✕</span>
+		    </button>
+		</div>
+		<iframe src="${RESERVA_URL}" allow="payment *; clipboard-write *"></iframe>
+		<div class="footer">
+		    Completá tu reserva en el calendario 👆 Al cerrar esta ventana volverás al sitio.
+		</div>
+		<script>
+		    document.getElementById('btnCerrarManual').addEventListener('click', function() {
+		        if (window.opener && !window.opener.closed) {
+		            window.opener.postMessage({ tipo: 'reserva_cerrada_manual', timestamp: Date.now() }, '*');
+		        }
+		        window.close();
+		    });
+		    window.addEventListener('beforeunload', function() {
+		        if (window.opener && !window.opener.closed) {
+		            window.opener.postMessage({ tipo: 'reserva_ventana_cerrandose', timestamp: Date.now() }, '*');
+		        }
+		    });
+		<\/script>
+	    </body>
+	    </html>
+	    `;
+	}
+
+        function confirmarReservaExitosa() {
+            if (reservaConfirmada) return;
+            reservaConfirmada = true;
+            btn.disabled = true;
+            mensajeExito.style.display = 'block';
+            linkReintentar.style.display = 'block';
+            warningDiv.style.display = 'none';
+        }
+
+        function resetearReserva() {
+            if (!reservaConfirmada) return;
+            reservaConfirmada = false;
+            btn.disabled = false;
+            mensajeExito.style.display = 'none';
+            linkReintentar.style.display = 'none';
+            if (ventanaPopup && !ventanaPopup.closed) {
+                ventanaPopup.close();
+            }
+            if (intervalo) {
+                clearInterval(intervalo);
+                intervalo = null;
+            }
+            ventanaPopup = null;
+            tiempoApertura = null;
+        }
+
+        function abrirVentanaReserva() {
+            if (reservaConfirmada) return;
+            if (ventanaPopup && !ventanaPopup.closed) {
+                ventanaPopup.focus();
+                return;
+            }
+            mensajeExito.style.display = 'none';
+            warningDiv.style.display = 'none';
+            linkReintentar.style.display = 'none'; // se oculta mientras se abre una nueva
+
+            const htmlPopup = generarHTMLPopup();
+            const blob = new Blob([htmlPopup], { type: 'text/html' });
+            const urlBlob = URL.createObjectURL(blob);
+            const ancho = 950;
+            const alto = 700;
+            const left = (screen.width / 2) - (ancho / 2);
+            const top = (screen.height / 2) - (alto / 2);
+            const opciones = `width=${ancho},height=${alto},left=${left},top=${top},resizable=yes,scrollbars=yes`;
+
+            ventanaPopup = window.open(urlBlob, '_blank', opciones);
+            if (!ventanaPopup) {
+                warningDiv.style.display = 'block';
+                return;
+            }
+            setTimeout(() => URL.revokeObjectURL(urlBlob), 1000);
+            if (intervalo) clearInterval(intervalo);
+            tiempoApertura = Date.now();
+            intervalo = setInterval(() => {
+                if (!ventanaPopup || ventanaPopup.closed) {
+                    const tiempoAbierto = Date.now() - tiempoApertura;
+                    if (tiempoAbierto >= TIEMPO_MINIMO_MS && !reservaConfirmada) {
+                        confirmarReservaExitosa();
+                    }
+                    clearInterval(intervalo);
+                    intervalo = null;
+                    ventanaPopup = null;
+                    tiempoApertura = null;
+                }
+            }, 500);
+        }
+
+        // Escuchar mensajes desde el popup (cierre manual)
+        window.addEventListener('message', function(event) {
+            if (event.data && event.data.tipo === 'reserva_cerrada_manual') {
+                if (!reservaConfirmada) {
+                    confirmarReservaExitosa();
+                }
+            }
+        });
+
+        btn.addEventListener('click', abrirVentanaReserva);
+        resetLink.addEventListener('click', function(e) {
+            e.preventDefault();
+            resetearReserva();
+        });
+    })();
+</script>
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Arroba Eventos",
+    "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "27 de febrero 1030",
+        "addressLocality": "Rosario",
+        "addressRegion": "Santa Fe",
+        "addressCountry": "AR"
+    },
+    "telephone": "+5493417808880",
+    "openingHours": "Mo-Su 09:00-21:00",
+    "description": "Salón de fiestas para eventos infantiles en Rosario. Opciones Clásica, All Inclusive, Aquacumple, Cumple Teens y Arroba Lúdico.",
+    "url": "https://www.arrobaeventos.com.ar",
+    "sameAs": ["https://www.instagram.com/arroba_eventos/", "https://www.facebook.com/p/Sal%C3%B3n-Arroba-Eventos-100093817723282/"]
+}
+</script>
 </body>
 </html>
