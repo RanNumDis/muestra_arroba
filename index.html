@@ -669,7 +669,7 @@
             <li><a href="#nosotros">Nosotros</a></li>
             <li><a href="#salón">Salón</a></li>
             <li><a href="#ubicacion">Ubicación y contacto</a></li>
-            <li><a href="#reservas" class="btn-reservar-nav">Reservar</a></li>
+            <li><a href="#visitas" class="btn-reservar-nav">Visitanos</a></li>
         </ul>
     </div>
 </header>
@@ -712,7 +712,7 @@
                     <li><i class="fas fa-check-circle"></i> Podés traer tu propia comida</li>
                 </ul>
                 <a href="#" class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">
-                    <i class="fab fa-whatsapp"></i> Consultar
+                    <i class="fab fa-whatsapp"></i> Cotizar
                 </a>
             </div>
             <div class="service-panel">
@@ -727,7 +727,7 @@
                     <li><i class="fas fa-check-circle"></i> Coordinación total</li>
                 </ul>
                 <a href="#" class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">
-                    <i class="fab fa-whatsapp"></i> Consultar
+                    <i class="fab fa-whatsapp"></i> Cotizar
                 </a>
             </div>
             <div class="service-panel">
@@ -740,7 +740,7 @@
                     <li><i class="fas fa-check-circle"></i> Opcional inflable acuático</li>
                 </ul>
                 <a href="#" class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">
-                    <i class="fab fa-whatsapp"></i> Consultar
+                    <i class="fab fa-whatsapp"></i> Cotizar
                 </a>
             </div>
             <div class="service-panel">
@@ -754,7 +754,7 @@
                     <li><i class="fas fa-check-circle"></i> Animadores especializados</li>
                 </ul>
                 <a href="#" class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">
-                    <i class="fab fa-whatsapp"></i> Consultar
+                    <i class="fab fa-whatsapp"></i> Cotizar
                 </a>
             </div>
             <div class="service-panel">
@@ -767,7 +767,7 @@
                     <li><i class="fas fa-check-circle"></i> Sumalo a tu paquete</li>
                 </ul>
                 <a href="#" class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">
-                    <i class="fab fa-whatsapp"></i> Consultar
+                    <i class="fab fa-whatsapp"></i> Cotizar
                 </a>
             </div>
         </div>
@@ -853,22 +853,22 @@
 <section class="final-cta" id="reservas">
     <div class="container">
         <div class="booking-container">
-            <h2 style="color:white; text-shadow:none;">📅 Reservá tu turno</h2>
-            <p style="color:white; font-weight:500;">Elegí fecha y horario en nuestro calendario.</p>
+            <h2 style="color:white; text-shadow:none;">📅 Agendá una visita para conocer nuestro salón</h2>
+            <p style="color:white; font-weight:500;">Elegí fecha y horario en nuestro calendario para reunirnos personalmente.</p>
             <button class="btn-reservar-book" id="btnReservarTurno">
-                <i class="fas fa-calendar-check"></i> Reservar ahora
+                <i class="fas fa-calendar-check"></i> Agendar visita
             </button>
             <div id="mensajeExito" class="mensaje-exito">
-                ✅ ¡Turno confirmado!<br>Revisá tu correo electrónico.
+                ✅ ¡Parece que completaste la reserva correctamente!<br>Revisa tu correo electrónico en unos minutos para confirmar.<br>No olvides añadir el evento a tu calendario y avisanos si cancelás por cualquier motivo ¡Nos vemos!
             </div>
             <div id="linkReintentar" class="link-reintentar">
-                🔄 <a id="resetLink">¿Necesitas agendar otro turno? Haz clic aquí</a>
+                🔄 <a id="resetLink">¿No pudiste completar tu reserva? Si tu horario no está disponible, es probable que lo hayas reservado correctamente y nos pondremos en contacto.<br>Para verificar o volver a reservar, haz clic aquí.</a>
             </div>
             <div id="warningPopup" class="warning-popup">
                 ⚠️ Tu navegador bloqueó la ventana emergente. Permití pop-ups para este sitio.
             </div>
             <div class="footer-seguridad">
-                <span>🔒</span> Tus datos están seguros. Reservas gestionadas con <strong>Google Calendar</strong>.
+                <span>🔒</span> Tus datos están seguros. Reserva de visitas gestionada con <strong>Google Calendar</strong>.
             </div>
         </div>
     </div>
@@ -1122,15 +1122,15 @@
 	    </head>
 	    <body>
 		<div class="header">
-		    <h2>📅 Sistema de reservas - Arroba Eventos</h2>
+		    <h2>📅 Agenda de visitas - Arroba Eventos</h2>
 		    <button class="btn-cerrar-estilo" id="btnCerrarManual">
-		        Ya completé mi reserva, cerrar ventana
+		        Ya rervé mi visita, cerrar ventana
 		        <span class="close-icon">✕</span>
 		    </button>
 		</div>
 		<iframe src="${RESERVA_URL}" allow="payment *; clipboard-write *"></iframe>
 		<div class="footer">
-		    Completá tu reserva en el calendario 👆 Al cerrar esta ventana volverás al sitio.
+		    Elégi tu horario de visita en el calendario 👆 Al cerrar esta ventana volverás al sitio.
 		</div>
 		<script>
 		    document.getElementById('btnCerrarManual').addEventListener('click', function() {
